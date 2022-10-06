@@ -1,0 +1,19 @@
+/*
+Andrew Yang 11229926 ay0123
+*/
+Without 'virtual' word
+Output : 
+Exercise about inheritance and polymorphism
+Salary=1500 
+Salary=1500
+# Without virtual word, the program ignore the payment() function from classManage.
+
+With 'virtual' keyword
+Output : 
+Exercise about inheritance and polymorphism 
+Salary=1500 
+Salary=2250
+# With virtual word, program runs e1.payment(). Payment() function is from the class Manager when the program runs the m1.Payment().
+
+Therefore, the result is different.
+
